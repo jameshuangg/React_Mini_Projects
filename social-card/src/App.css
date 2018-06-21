@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.social-card {
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px 10px;
+    width: 600px;
+    margin: 10px auto;
+    line-height: 20px;
+}
+
+.header__span {
+    color: #c6c6c6;
+}
+
+.header__a--bold {
+    font-weight: 600;
+}
+
+.aside {
+    float: left;
+    width: 58px;
+}
+
+.aside__image--profile {
+    width: 90%;
+    border-radius: 100%;
+}
+
+.social-card__content {
+    margin-left: 58px;
+}
+
+.icon-label {
+    margin-left: 5px;
+}
+
+.stat-container {
+    margin-right: 20px;
+}
+
+.stat-container:first-child {
+    margin-left: 58px;
+}
+
+.social-card__footer {
+    margin-top: 10px;
+}
+
+.tweet__image {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.caption {
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.caption__title {
+    font-size: 1em;
+    margin: 0;
+}
+
+.caption__text {
+    font-size: 0.9em;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.caption__link {
+    font-size: 0.9em;
+    color: gainsboro;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.icon--clickable {
+    cursor: pointer;
+}

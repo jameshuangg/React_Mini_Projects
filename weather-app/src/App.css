@@ -1,0 +1,40 @@
+.weatherCard {
+    height: 90px;
+    width: 73px;
+    float: left;
+}
+
+.weatherCard__header {
+    color: #bababa;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.weatherCard__image {
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
+.weatherCard__text {
+    text-align: center;
+}
+
+.weatherCard__high {
+    color: #878787;
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+.weatherCard__low {
+    color: #bababa;
+    font-size: 13px;
+}
+
+.weatherCard--active {
+    border: 1px solid #e9e9e9;
+    background-color: #fcfcfc;
+}
+
