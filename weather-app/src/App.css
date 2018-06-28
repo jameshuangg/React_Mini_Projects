@@ -38,3 +38,12 @@
     background-color: #fcfcfc;
 }
 
+.infoCardContainer {
+    width: 100%;
+    float: left;
+}
+
+.infoCardContainer__header {
+    font-size: 16px;
+}
+
