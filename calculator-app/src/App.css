@@ -1,0 +1,35 @@
+.table {
+    border-collapse: collapse;
+}
+
+.table__cell {
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #7f0000;
+    width: 70px;
+    height: 70px;
+}
+
+.table__cell--number {
+    background-color: #fafafa;
+    font-size: 26px;
+}
+
+.table__cell--clear {
+    background-color: #fafafa;
+    color: #757575;
+    font-size: 20px;
+}
+
+.table__cell--operation {
+    background-color: #ef5350;
+}
+
+.table__cell--display {
+    background-color: #3e2723;
+    color: white;
+    font-size: 36px;
+    text-align: right;
+    padding: 0 20px;
+}
+
